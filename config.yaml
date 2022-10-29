@@ -24,10 +24,37 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: www-turnoffthelights-com # unique identifier
+    name: www.turnoffthelights.com
+    description: 'The official website of the Turn Off the Lights browser extension and more.' # default=empty
+    url: 'https://www.turnoffthelights.com' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: www-turnoffthelights-com-support # unique identifier
+    name: www.turnoffthelights.com/support/
+    description: 'The official Turn Off the Lights Support' # default=empty
+    url: 'https://www.turnoffthelights.com/support/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: www-turnoffthelights-com-blog # unique identifier
+    name: www.turnoffthelights.com/blog/
+    description: 'The official Turn Off the Lights Blog' # default=empty
+    url: 'https://www.turnoffthelights.com/blog/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
   - id: www-stefanvd-net
     name: www.stefanvd.net
     description: 'The official website of Stefan Van Damme.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://www.stefanvd.net'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
